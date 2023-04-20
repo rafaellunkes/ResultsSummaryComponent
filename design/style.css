@@ -13,8 +13,8 @@ body {
 .conteiner {
     display: flex;
     border-radius: 20px;
-    width: 40vw;
-    height: 55vh;
+    width: 480px;
+    height: 350px;
     margin: auto;
     box-shadow: 1px 10px 25px 10px hsl(221, 100%, 96%);
     position: absolute;
@@ -26,21 +26,20 @@ body {
 
 .result {
     border-radius: 20px;
-    width: 20vw;
-    height: 55vh;
+    width: 240px;
+    height: 350px;
     color: hsl(241, 100%, 89%);
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .media {    
-    width: 10vw;
-    height: 10vw;
+    width: 144px;
+    height: 144px;
     border-radius: 100%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     margin: auto;
     display: flex;
     flex-direction: column;
-    
 }
 
 .media p {
@@ -56,12 +55,12 @@ h1 {
 
 p {
     font-size: small;
-    margin:  auto 40px;
+    margin:  auto 30px;
 }
 
 .summary {
-    width: 20vw;
-    height: 50vh;
+    width: 240px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,21 +71,22 @@ p {
 table {
     border-collapse: collapse;
     margin: auto;
-    height: 55vh;
+    height: 394px;
 }
 
 tr {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 7px;
-    height: 7vh;
+    height: 40px;
 }
 
 td {
-    width: 8vw;
+    width: 100px;
     font-size: small;
+    margin: 0;
 }
 
 img {
@@ -104,10 +104,11 @@ button:hover{
 button {
     background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
     border-radius: 20px;
-    width: 16vw;
-    height: 6vh;
+    width: 200px;
+    height: 40px;
     border: none;
     font-size: small;
+    margin-top: 30px;
 }
 
 h1, h2, h3, button {
@@ -152,6 +153,3 @@ h1, h2, h3, button {
 #tr-visual {
     background-color: hsla(234, 85%, 45%, 0.1);
 }
-
-
-
